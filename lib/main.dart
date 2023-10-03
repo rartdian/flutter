@@ -10,13 +10,11 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         body: Container(
-            color: Colors.red[50],
+            color: Colors.pink[900],
             width: 400.0,
             height: 200.0,
             child: Center(
-                child: Text(
-              "Hello Teman teman",
-              style: TextStyle(color: Colors.black, fontSize: 20),
-            ))));
+              child: Icon(Icons.alarm, color: Colors.white, size: 100.0),
+            )));
   }
 }
