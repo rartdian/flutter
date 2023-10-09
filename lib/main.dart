@@ -16,8 +16,12 @@ class HomePage extends StatelessWidget {
           actions: <Widget>[Icon(Icons.search, size: 25.0)],
         ),
         body: TextField(
+            maxLength: 8,
+            obscureText: true,
             decoration: InputDecoration(
-          hintText: 'nama',
-        )));
+                labelText: 'Pass',
+                //hintText: 'nama',
+                border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(20.0)))));
   }
 }
